@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(81, 1, 81);
+}
+
+canvas{
+    height: 30rem;
+}
+
+#wrap{
+    display: block;
+    place-items: center;
+    background-color: white;
+    margin: 0 10rem;
+    height: 35.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.3rem 0;
+    letter-spacing: 1px;
+
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin: 1rem 0;
+}
+
+button{
+    width: 5rem;
+    height: 1.5rem;
+}
+
+#info{
+    color: white;
+    margin: 1rem 0;
+    display: grid;
+    place-content: center;
+}
+
+#day,#decision,#player{
+    margin: 0.3rem 0;
+    text-align: center;
+}

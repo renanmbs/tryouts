@@ -12,6 +12,8 @@ let decision = document.getElementById("decision");
 for (let index in data) {
     graphs.push(new Chart("myChart2", {
         type: "polarArea",
+        responsive: true,
+        maintainAspectRatio: false,
         data: data[index],
         options: {
             plugins: {
@@ -104,6 +106,8 @@ let myChart = new Chart("myChart", {
     type: "polarArea",
     data: data[graph_index],
     options: {
+        responsive: true,
+        maintainAspectRatio: false,
         scale: {
             angleLines: {
                 display: true,

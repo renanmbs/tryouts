@@ -7,7 +7,7 @@ body{
 }
 
 canvas{
-    height: 30rem;
+    height: 15rem;
 }
 
 #wrap{
@@ -64,4 +64,7 @@ button{
         height: 15.5rem;
     }
     
+    canvas{
+        height: 10rem;
+    }
 }

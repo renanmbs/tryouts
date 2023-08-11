@@ -38,7 +38,7 @@ h1{
 }
 
 button{
-    width: 6.5rem;
+    width: 6.8rem;
     height: 1.5rem;
 }
 
@@ -56,7 +56,7 @@ button{
 
 @media only screen and (max-width:768px){
     h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #wrap{

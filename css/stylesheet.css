@@ -38,7 +38,7 @@ h1{
 }
 
 button{
-    width: 6rem;
+    width: 6.5rem;
     height: 1.5rem;
 }
 
@@ -66,5 +66,9 @@ button{
     
     canvas{
         height: 25rem;
+    }
+
+    #day,#decision,#player{
+        margin: 0.2rem 0;
     }
 }

@@ -87,7 +87,10 @@ td,th {
 
 @media only screen and (max-width:768px){
     .B{
-
         margin: 0 2%;
+    }
+
+    table{
+        width: 30%;
     }
 }

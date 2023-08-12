@@ -93,4 +93,8 @@ td,th {
     table{
         width: 30%;
     }
+
+    #positions{
+        display: flex;
+    }
 }

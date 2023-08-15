@@ -54,6 +54,17 @@ button{
     text-align: center;
 }
 
+#breaks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#breaks a{
+    text-decoration: none;
+    color: black;
+}
+
 @media only screen and (max-width:768px){
     h1{
         font-size: 1.5rem;

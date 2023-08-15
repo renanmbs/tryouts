@@ -1,9 +1,9 @@
 
-let keepers = ["Guilhermo", "Bagley"];
-let defenders = ["Gabe", "Aziz", "Belal", "Danny", "Cooper","Kolton","Asher","Christian","Spafford", "Damian", "Ethan Barnette"];
-let mids = ["Cache", "Carston", "Alex Gil", "Julio", "Wilo", "Riley", "Corbin", "Easton", "Ricky", "Boston"];
-let strikers = ["Pearce", "Humberto", "Michael Fuentes", "Hunter Spencer"];
-let practice = ["Lorenzo Venega", "Will Naughton", "Abiyath", "Davon", "Mauricio Olivera", "Ben Gladwell", "Jorge Benitez", "Clement Noble"];
+let keepers = ["Gustavo", "Bagley"];
+let defenders = ["Gabe", "Aziz", "Belal", "Danny", "Cooper","Kolton","Christian", "Damian", "Ethan Barnette"];
+let mids = ["Cache", "Carston", "Alex Gil", "Julio", "Wilo", "Riley", "Corbin", "Easton", "Boston", "Asher", "Abiyath"];
+let strikers = ["Pearce", "Humberto", "Michael Fuentes", "Hunter Spencer", "Ben Gladwell", "Ricky"];
+let practice = ["Lorenzo Venega", "Will Naughton", "Davon", "Mauricio Olivera", "Jorge Benitez", "Clement Noble"];
 
 document.getElementById("st").innerHTML = strikers.length;
 document.getElementById("mid").innerHTML = mids.length;
@@ -14,11 +14,11 @@ document.getElementById("total").innerHTML = strikers.length + mids.length + def
 document.getElementById("totalp").innerHTML = strikers.length + mids.length + defenders.length + keepers.length + practice.length;
 
 
-let cams = ["Cache","Julio","Riley","Corbin", "Easton", "Ricky"];
-let cms = ["Cache", "Carston", "Alex Gil","Wilo", "Riley", "Corbin", "Easton", "Ricky", "Boston", "Gabe"];
-let cdms = ["Alex Gil", "Wilo","Boston","Cooper","Kolton", "Gabe", "Cooper"];
-let cbs = ["Gabe","Cooper","Kolton","Christian","Spafford", "Damian", "Ethan Barnette"];
-let obs = ["Gabe", "Aziz", "Belal", "Danny","Asher","Christian", "Ethan Barnette"];
+let cams = ["Cache", "Julio", "Riley", "Corbin", "Easton", "Ricky"];
+let cms = ["Cache", "Carston", "Alex Gil", "Wilo", "Riley", "Corbin", "Easton", "Boston", "Gabe"];
+let cdms = ["Alex Gil", "Wilo", "Boston", "Cooper", "Kolton", "Gabe"];
+let cbs = ["Gabe", "Cooper","Kolton", "Damian", "Ethan Barnette"];
+let obs = ["Gabe", "Aziz", "Belal", "Danny", "Asher", "Christian", "Ethan Barnette"];
 
 let st_list = document.getElementById("sts");
 let cam_list = document.getElementById("cams");

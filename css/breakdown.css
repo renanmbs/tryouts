@@ -91,10 +91,12 @@ td,th {
     }
 
     table{
-        width: 30%;
+        width: 90%;
     }
 
     #positions{
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

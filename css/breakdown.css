@@ -139,4 +139,10 @@ img{
         justify-content: center;
         align-items: center;
     }
+
+    img{
+        border-radius: 10px;
+        max-height: 15rem;
+        max-width: 16rem;
+    }
 }

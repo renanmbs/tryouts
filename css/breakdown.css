@@ -120,6 +120,7 @@ figcaption{
 img{
     border-radius: 10px;
     max-height: 45rem;
+    max-width: 40rem;
 }
 
 

@@ -1,8 +1,8 @@
 
 let keepers = ["Gustavo", "Bagley"];
 let defenders = ["Gabe", "Aziz", "Belal", "Danny", "Cooper","Kolton","Christian", "Damian", "Ethan Barnette"];
-let mids = ["Cache", "Carston", "Alex Gil", "Julio", "Wilo", "Riley", "Corbin", "Easton", "Boston", "Asher", "Abiyath"];
-let strikers = ["Pearce", "Humberto", "Michael Fuentes", "Hunter Spencer", "Ben Gladwell", "Ricky"];
+let mids = ["Cache", "Alex Gil", "Julio", "Wilo", "Riley", "Corbin", "Easton", "Boston", "Asher", "Michael Fuentes"];
+let strikers = ["Pearce", "Humberto", "Hunter Spencer", "Ben Gladwell", "Ricky"];
 let practice = ["Lorenzo Venega", "Will Naughton", "Davon", "Mauricio Olivera", "Jorge Benitez", "Clement Noble"];
 
 document.getElementById("st").innerHTML = strikers.length;
@@ -14,11 +14,11 @@ document.getElementById("total").innerHTML = strikers.length + mids.length + def
 document.getElementById("totalp").innerHTML = strikers.length + mids.length + defenders.length + keepers.length + practice.length;
 
 
-let cams = ["Cache", "Julio", "Riley", "Corbin", "Easton", "Ricky"];
-let cms = ["Cache", "Carston", "Alex Gil", "Wilo", "Riley", "Corbin", "Easton", "Boston", "Gabe"];
-let cdms = ["Alex Gil", "Wilo", "Boston", "Cooper", "Kolton", "Gabe"];
+let cams = ["Cache", "Julio", "Riley", "Corbin", "Easton", "Ricky", "Pearce", "Aziz",, "Michael Fuentes"];
+let cms = ["Cache", "Julio", "Alex Gil", "Wilo", "Riley", "Corbin", "Easton", "Boston", "Gabe", "Michael Fuentes"];
+let cdms = ["Alex Gil", "Wilo", "Boston", "Cooper", "Kolton", "Gabe", "Julio"];
 let cbs = ["Gabe", "Cooper","Kolton", "Damian", "Ethan Barnette"];
-let obs = ["Gabe", "Aziz", "Belal", "Danny", "Asher", "Christian", "Ethan Barnette"];
+let obs = ["Gabe", "Aziz", "Belal", "Danny", "Asher", "Christian", "Ethan Barnette","Cooper", "Alex Gil"];
 
 let st_list = document.getElementById("sts");
 let cam_list = document.getElementById("cams");

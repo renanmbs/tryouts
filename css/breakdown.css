@@ -37,8 +37,9 @@ table, th, td {
 
 table{
     width: 50%;
-    margin-bottom: 10%;
+    margin: 10% 0;
 }
+
 #positions{
     display: grid;
     place-items: center;
@@ -81,6 +82,44 @@ td,th {
 #p_break h3{
     font-size: 1.6rem !important;
     margin: 1% 0;
+}
+
+#teams{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+figure{
+    margin: 2rem 0;
+}
+
+figcaption{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#start{
+    border: solid goldenrod;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 5px goldenrod);
+}
+
+#subs{
+    border: solid black;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+#reserve{
+    border: solid red;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 5px red);
+}
+
+img{
+    border-radius: 10px;
+    max-height: 45rem;
 }
 
 

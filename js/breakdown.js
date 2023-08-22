@@ -1,9 +1,9 @@
 
 let keepers = ["Gustavo", "Bagley"];
-let defenders = ["Gabe", "Aziz", "Belal", "Danny", "Cooper","Kolton","Christian", "Damian", "Ethan Barnette"];
+let defenders = ["Gabe", "Aziz", "Belal", "Danny", "Cooper","Kolton","Christian", "Ethan Barnette"];
 let mids = ["Cache", "Alex Gil", "Julio", "Wilo", "Riley", "Corbin", "Easton", "Boston", "Asher", "Michael Fuentes"];
 let strikers = ["Pearce", "Humberto", "Hunter Spencer", "Ben Gladwell", "Ricky"];
-let practice = ["Lorenzo Venega", "Will Naughton", "Davon", "Mauricio Olivera", "Jorge Benitez", "Clement Noble"];
+let practice = ["Lorenzo Venega", "Damian", "Will Naughton", "Davon", "Mauricio Olivera", "Jorge Benitez", "Clement Noble"];
 
 document.getElementById("st").innerHTML = strikers.length;
 document.getElementById("mid").innerHTML = mids.length;
